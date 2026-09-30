@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Segoe UI;
+}
+th{
+    background-color: #18352f;
+    color: #ffff;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+td{
+    font-style: italic;
+    color: #58716a;
+    padding-left: 20px;
+}
+td.td_cim{
+    color: #145c4e;
+    font-style: normal;
+}
+span{
+    font-style: italic;
+    font-size: 10px;
+}
