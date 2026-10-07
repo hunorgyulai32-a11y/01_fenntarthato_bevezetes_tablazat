@@ -2,10 +2,48 @@
     box-sizing: border-box;
 }
 body{
+    max-width: 1250px;
     font-family: Segoe UI;
+    margin: auto;
+}
+caption{
+    text-align: left;
+    margin-bottom: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+#cim_felett{
+    font-size: 10px;
+    font-weight: bold;
+    color: yellow;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 60px;
+    padding: 0px;
+}
+h2{
+    color: #18352f;;
+}
+#foheader{
+    background-color: #145c4e;
+    color: white;
+    padding: 50px;
+    border-radius: 30px;
+}
+#zold{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+a{
+    text-align: right;
+    margin-top: 15px;
+    color: #145c4e;
 }
 th{
-    background-color: #18352f;
+    background-color: #145c4e;
     color: #ffff;
     padding-bottom: 50px;
     padding-top: 20px;
