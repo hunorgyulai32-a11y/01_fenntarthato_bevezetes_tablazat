@@ -9,8 +9,8 @@
   <body>
     <main>
       <header id="zold">
-        <p>✳ Zöld döntések</p>
-        <a href=""><b>Ugrás a táblázathoz ↓</b></a>
+        <p id="csillag"><b>✳</b> Zöld döntések</p>
+        <a href="#tablazat"><b>Ugrás a táblázathoz ↓</b></a>
       </header>
       <header id="foheader">
         <div>
@@ -24,8 +24,12 @@
       </header>
       <article>
         <h2>Döntések az iskolában</h2>
-        <p>Négy példa arra, hogyan kapcsolódnak össze a hatások.</p>
-        <table>
+        <div id="szoveg">
+          <p id="halvany">Négy példa arra, hogyan kapcsolódnak össze a hatások.</p>
+          <p id="vastag">4 döntés · 3 szempont</p>
+        </div>
+
+        <table id="tablazat">
           <caption>Iskolai döntések és lehetséges hatásaik</caption>
           <thead>
             <tr>
@@ -38,34 +42,42 @@
           </thead>
           <tbody>
             <tr>
-              <td class="td_cim"><span>01 / VÍZ</span><br><b>Ivóvíz-utántöltés és saját kulacs</b></td>
+              <td class="td_cim"><b><span>01 / VÍZ</span><br>Ivóvíz-utántöltés és saját kulacs</b></td>
               <td>Kevesebb egyszer használatos palackra lehet szükség.</td>
               <td>Az ivóvíz könnyebben elérhető a diákoknak.</td>
               <td>Az ivóvízpont kialakítása és fenntartása pénzbe kerül.</td>
-              <td>Ha sokan tudnak vizet tölteni, kevesebb palackot vásárolhatnak. Ehhez működő, karbantartott ivóvízpont kell.</td>
+              <td class="vonal">Ha sokan tudnak vizet tölteni, kevesebb palackot vásárolhatnak. Ehhez működő, karbantartott ivóvízpont kell.</td>
             </tr>
             <tr>
               <td class="td_cim"><span>02 / UDVAR</span><br><b>Árnyékot adó növények ültetése</b></td>
               <td>A nagy hőség ellen védi a többi növényt.</td>
               <td>Az árnyékban a barátok össze ülhetnek hidegebb helyen.</td>
               <td>Kertészetek több keresletet kapnak.</td>
-              <td>Ha több árnyékot adó növény lenne, megnőne az emberek kintöltött idejük és a növényeknek is jobb.</td>
+              <td class="vonal">Ha több árnyékot adó növény lenne, megnőne az emberek kintöltött idejük és a növényeknek is jobb.</td>
             </tr>
             <tr>
               <td class="td_cim"><span>03 / KÖZLEKEDÉS</span><br><b>Biztonságos kerékpártároló</b></td>
               <td>Kevesebb szén-dioxid termelés.</td>
               <td>Többen járnának biciklivel eggyütt a gyerekek.</td>
               <td>Kevesebbet költünk üzemanyagra.</td>
-              <td>Az emberek többször választanák a biciklit az autó helyett, így segitünk a környezetnek.</td>
+              <td class="vonal">Az emberek többször választanák a biciklit az autó helyett, így segitünk a környezetnek.</td>
             </tr>
             <tr>
               <td class="td_cim"><span>04 / ESZKÖZÖK</span><br><b>Számítógépek javítása csere előtt</b></td>
               <td>Kevesebb elektromos hulladék.</td>
               <td>Több gyereknek lenne számítógépe.</td>
               <td>Olcsóbban jönne ki ha csak javítani kéne teljes újra vevés helyett.</td>
-              <td>A csere elött mindenkép jobb lenne javítani, ehez viszont az kéne, hogy valóban olcsóbb legyen.</td>
+              <td class="vonal">A csere elött mindenkép jobb lenne javítani, ehez viszont az kéne, hogy valóban olcsóbb legyen.</td>
             </tr>
           </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="5">
+                Keskeny képernyőn a táblázat vízszintesen görgethető.
+                A sorok lehetséges hatásokat mutatnak, nem számszerű bizonyítékokat.
+              </td>
+            </tr>
+          </tfoot>
         </table>
       </article>
       <footer>
